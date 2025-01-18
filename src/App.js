@@ -111,7 +111,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="App" style={{ overflow: 'hidden' }}>
       <Navbar />
       
       {/* Drop from top animation for home section */}
