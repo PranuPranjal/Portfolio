@@ -120,9 +120,9 @@ function App() {
         className="home-section"
         initial="initial"
         whileInView="animate"
-        viewport={{ once: true, amount: 0.3 }}
+        viewport={{ once: true, amount: 0.1 }}
         variants={fadeRotate}
-        style={{ margin: '10px 0' }}
+        style={{ margin: '10px 0', willChange: 'opacity, transform' }}
       >
         <div className="home-content">
           <TypeAnimation
@@ -178,9 +178,9 @@ function App() {
       <motion.section
         initial="initial"
         whileInView="animate"
-        viewport={{ once: false, amount: 0.3 }}
+        viewport={{ once: false, amount: 0.1 }}
         variants={slideFromLeft}
-        style={{ margin: '10px 0' }}
+        style={{ margin: '10px 0', willChange: 'opacity, transform' }}
       >
         <Info />
       </motion.section>
@@ -189,9 +189,9 @@ function App() {
       <motion.section
         initial="initial"
         whileInView="animate"
-        viewport={{ once: false, amount: 0.3 }}
+        viewport={{ once: false, amount: 0.1 }}
         variants={slideFromRight}
-        style={{ margin: '10px 0' }}
+        style={{ margin: '10px 0', willChange: 'opacity, transform' }}
       >
         <Skills />
       </motion.section>
@@ -200,9 +200,9 @@ function App() {
       <motion.section
         initial="initial"
         whileInView="animate"
-        viewport={{ once: false, amount: 0.3 }}
+        viewport={{ once: false, amount: 0.1 }}
         variants={fadeRotate}
-        style={{ margin: '10px 0' }}
+        style={{ margin: '10px 0', willChange: 'opacity, transform' }}
       >
         <Experience />
       </motion.section>
@@ -211,9 +211,9 @@ function App() {
       <motion.section
         initial="initial"
         whileInView="animate"
-        viewport={{ once: false, amount: 0.3 }}
+        viewport={{ once: false, amount: 0.1 }}
         variants={fadeRotate}
-        style={{ margin: '10px 0' }}
+        style={{ margin: '10px 0', willChange: 'opacity, transform' }}
       >
         <Projects />
       </motion.section>
@@ -222,9 +222,9 @@ function App() {
       <motion.section
         initial="initial"
         whileInView="animate"
-        viewport={{ once: false, amount: 0.3 }}
+        viewport={{ once: false, amount: 0.1 }}
         variants={fadeRotate}
-        style={{ margin: '10px 0' }}
+        style={{ margin: '10px 0', willChange: 'opacity, transform' }}
       >
         <Reachout />
       </motion.section>
