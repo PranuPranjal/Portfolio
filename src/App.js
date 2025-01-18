@@ -122,6 +122,7 @@ function App() {
         whileInView="animate"
         viewport={{ once: true, amount: 0.3 }}
         variants={fadeRotate}
+        style={{ margin: '10px 0' }}
       >
         <div className="home-content">
           <TypeAnimation
@@ -179,6 +180,7 @@ function App() {
         whileInView="animate"
         viewport={{ once: false, amount: 0.3 }}
         variants={slideFromLeft}
+        style={{ margin: '10px 0' }}
       >
         <Info />
       </motion.section>
@@ -189,6 +191,7 @@ function App() {
         whileInView="animate"
         viewport={{ once: false, amount: 0.3 }}
         variants={slideFromRight}
+        style={{ margin: '10px 0' }}
       >
         <Skills />
       </motion.section>
@@ -199,6 +202,7 @@ function App() {
         whileInView="animate"
         viewport={{ once: false, amount: 0.3 }}
         variants={fadeRotate}
+        style={{ margin: '10px 0' }}
       >
         <Experience />
       </motion.section>
@@ -209,6 +213,7 @@ function App() {
         whileInView="animate"
         viewport={{ once: false, amount: 0.3 }}
         variants={fadeRotate}
+        style={{ margin: '10px 0' }}
       >
         <Projects />
       </motion.section>
@@ -219,6 +224,7 @@ function App() {
         whileInView="animate"
         viewport={{ once: false, amount: 0.3 }}
         variants={fadeRotate}
+        style={{ margin: '10px 0' }}
       >
         <Reachout />
       </motion.section>
