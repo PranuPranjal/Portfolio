@@ -44,7 +44,7 @@ const Reachout = () => {
     {
       name: 'Email',
       icon: <FaEnvelope />,
-      link: 'pranupranjal850@gmail.com',
+      link: 'mailto:pranupranjal850@gmail.com',
       color: '#EA4335'
     },
     {

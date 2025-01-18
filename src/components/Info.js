@@ -102,7 +102,7 @@ const Info = () => {
               </div>
               
               <div className="info-item">
-                <a href="mailto:your.email@example.com" className="contact-link">
+                <a href="mailto:pranupranjal850@gmail.com" className="contact-link">
                   <div className="icon-box">
                     <FaEnvelope className="contact-icon" />
                   </div>
