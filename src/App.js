@@ -8,7 +8,6 @@ import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Reachout from './components/Reachout';
-import LandingPage from './components/LandingPage';
 
 function App() {
   const slideFromLeft = {
@@ -113,7 +112,6 @@ function App() {
   return (
     <div className="App" style={{ overflow: 'hidden' }}>
       <Navbar />
-      <LandingPage/>
       
       {/* Drop from top animation for home section */}
       <motion.section
@@ -170,7 +168,7 @@ function App() {
               color: '#8892b0'
             }}
           >
-            Full Stack Developer
+            Pranu Pranjal | Full Stack Developer
           </motion.p>
         </div>
       </motion.section>

@@ -4,8 +4,9 @@ import {
   FaMapMarkerAlt, FaDownload, FaUserGraduate,
   FaUniversity, FaCode, FaBookReader 
 } from 'react-icons/fa';
+import { IoSettings } from "react-icons/io5";
 import Pic from '../assets/Profile.jpg';
-import CV from '../assets/PranuCV.pdf';
+import CV from '../assets/Pranu_CV.pdf';
 
 const Info = () => {
   useEffect(() => {
@@ -61,14 +62,14 @@ const Info = () => {
               </div>
 
               <div className="education-item">
-                <FaCode className="quick-info-icon" />
+                <IoSettings className="quick-info-icon" />
                 <div className="education-details">
                   <span className="major">Major: Mechanical Engineering</span>
                 </div>
               </div>
 
               <div className="education-item">
-                <FaBookReader className="quick-info-icon" />
+                <FaCode className="quick-info-icon" />
                 <div className="education-details">
                   <span className="minor">Minor: Software Engineering</span>
                 </div>

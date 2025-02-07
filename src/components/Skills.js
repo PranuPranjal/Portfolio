@@ -12,6 +12,7 @@ import {
   SiPandas, SiFlask, SiThreedotjs
 } from 'react-icons/si';
 import { DiCode } from 'react-icons/di';
+import { TbFileTypeSql } from "react-icons/tb";
 
 const Skills = () => {
   useEffect(() => {
@@ -48,7 +49,8 @@ const Skills = () => {
         { name: "HTML5", icon: <FaHtml5 /> },
         { name: "CSS3", icon: <FaCss3Alt /> },
         { name: "JavaScript", icon: <FaJsSquare /> },
-        { name: "Python", icon: <FaPython /> }
+        { name: "Python", icon: <FaPython /> },
+        { name: "SQL", icon: <TbFileTypeSql />}
       ]
     },
     {
