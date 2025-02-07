@@ -7,7 +7,7 @@ import {
 } from 'react-icons/fa';
 import { 
   SiTypescript, SiMongodb, SiExpress, SiTailwindcss,
-  SiPostgresql, SiRedux, SiFirebase, SiCplusplus,
+  SiPostgresql, SiRedux, SiCplusplus,
   SiKubernetes, SiAmazonwebservices, SiAnaconda, SiNumpy,
   SiPandas, SiFlask, SiThreedotjs
 } from 'react-icons/si';
@@ -66,8 +66,8 @@ const Skills = () => {
       title: "Databases & Cloud",
       skills: [
         { name: "MongoDB", icon: <SiMongodb /> },
-        { name: "AWS", icon: <SiAmazonwebservices /> },
-        { name: "Firebase", icon: <SiFirebase /> }
+        { name: "PostgreSQL", icon: <SiPostgresql /> },
+        { name: "AWS", icon: <SiAmazonwebservices /> }
       ]
     },
     {

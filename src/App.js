@@ -8,9 +8,9 @@ import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Reachout from './components/Reachout';
+import LandingPage from './components/LandingPage';
 
 function App() {
-  // Different animation variants for each section
   const slideFromLeft = {
     initial: {
       opacity: 0,
@@ -113,6 +113,7 @@ function App() {
   return (
     <div className="App" style={{ overflow: 'hidden' }}>
       <Navbar />
+      <LandingPage/>
       
       {/* Drop from top animation for home section */}
       <motion.section
