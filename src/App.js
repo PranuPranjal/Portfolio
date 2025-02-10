@@ -189,7 +189,7 @@ function App() {
         initial="initial"
         whileInView="animate"
         viewport={{ once: false, amount: 0.1 }}
-        variants={slideFromRight}
+        variants={fadeRotate}
         style={{ margin: '10px 0', willChange: 'opacity, transform' }}
       >
         <Skills />

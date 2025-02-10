@@ -338,7 +338,9 @@ section {
 .skills-section {
   padding: 100px 20px;
   background: linear-gradient(to bottom, #1e293b, #0f172a);
-  min-height: 100vh;
+  min-height: auto;
+  display: block;
+  visibility: visible;
 }
 
 .skills-container {
@@ -442,12 +444,14 @@ section {
 }
 
 /* Responsive Design */
-@media (max-width: 1200px) {
+@media (max-width: 768px) {
   .skills-grid {
     grid-template-columns: repeat(2, 1fr);
     padding: 0 20px;
   }
 }
+
+
 
 @media (max-width: 768px) {
   .skills-grid {
@@ -457,6 +461,20 @@ section {
   .skill-category {
     max-width: 500px;
     margin: 0 auto;
+  }
+
+  .skills-section {
+    padding: 50px 10px;
+    display: block;
+    visibility: visible;
+  }
+
+  .skills-title {
+    font-size: 2rem;
+  }
+
+  .skills-subtitle {
+    font-size: 1rem;
   }
 }
 
@@ -1349,3 +1367,4 @@ section {
 .contact-icon {
   margin-right: 10px;
 }
+
