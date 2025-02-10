@@ -1204,6 +1204,17 @@ section {
   font-family: 'Poppins', sans-serif;
 }
 
+.certificate {
+  color: #a4c8f3;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.certificate:hover {
+  color: #7545e7;
+}
+
 .experience-company {
   color: #60a5fa;
   font-size: 1.1rem;

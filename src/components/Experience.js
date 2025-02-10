@@ -66,7 +66,7 @@ const Experience = () => {
               
               <div className="experience-content">
                 <div className="experience-header">
-                  <h3 className="experience-role">{exp.title}</h3>
+                  <h3 className="experience-role">{exp.title} | <a className='certificate' target='_blank' href='https://drive.google.com/drive/u/0/folders/1-nDwc80adOKzsB7Xm_JSwCGrVpRZmemD'>View-Certificate</a></h3>
                   <div className="experience-company">{exp.company}</div>
                 </div>
 
