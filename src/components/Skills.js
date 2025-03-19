@@ -9,7 +9,7 @@ import {
   SiTypescript, SiMongodb, SiExpress, SiTailwindcss,
   SiPostgresql, SiRedux, SiCplusplus,
   SiKubernetes, SiAmazonwebservices, SiAnaconda, SiNumpy,
-  SiPandas, SiFlask, SiThreedotjs
+  SiPandas, SiFlask, SiThreedotjs, SiNextdotjs
 } from 'react-icons/si';
 import { DiCode } from 'react-icons/di';
 import { TbFileTypeSql } from "react-icons/tb";
@@ -56,6 +56,7 @@ const Skills = () => {
     {
       title: "Frameworks & Libraries",
       skills: [
+        { name: "Next.js", icon: <SiNextdotjs /> },
         { name: "React", icon: <FaReact /> },
         { name: "Node.js", icon: <FaNodeJs /> },
         { name: "Express", icon: <SiExpress /> },
