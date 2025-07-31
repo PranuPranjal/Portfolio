@@ -2,12 +2,12 @@ import React, { useEffect } from 'react';
 import { 
   FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaGitAlt,
   FaPython, FaJsSquare, FaBootstrap, FaDocker, FaJava,
-  FaLinux, FaGithub, FaCode, FaDatabase, FaTools,
-  FaLaptopCode
+  FaLinux, FaGithub, FaCode, FaTools, FaJenkins,
+  FaSonarQube, FaNginx, FaLaptopCode
 } from 'react-icons/fa';
 import { 
   SiTypescript, SiMongodb, SiExpress, SiTailwindcss,
-  SiPostgresql, SiRedux, SiCplusplus,
+  SiPostgresql, SiCplusplus, 
   SiKubernetes, SiAmazonwebservices, SiAnaconda, SiNumpy,
   SiPandas, SiFlask, SiThreedotjs, SiNextdotjs
 } from 'react-icons/si';
@@ -49,6 +49,8 @@ const Skills = () => {
         { name: "HTML5", icon: <FaHtml5 /> },
         { name: "CSS3", icon: <FaCss3Alt /> },
         { name: "JavaScript", icon: <FaJsSquare /> },
+        { name: "TypeScript", icon: <SiTypescript /> },
+        { name: "SQL", icon: <TbFileTypeSql /> },
         { name: "Python", icon: <FaPython /> },
         { name: "SQL", icon: <TbFileTypeSql />}
       ]
@@ -62,7 +64,8 @@ const Skills = () => {
         { name: "Express", icon: <SiExpress /> },
         { name: "Three.js", icon: <SiThreedotjs /> },
         { name: "Flask", icon: <SiFlask /> },
-        { name: "Bootstrap", icon: <FaBootstrap /> }
+        { name: "Bootstrap", icon: <FaBootstrap /> },
+        { name: "Tailwind CSS", icon: <SiTailwindcss /> }
       ]
     },
     {
@@ -88,6 +91,9 @@ const Skills = () => {
         { name: "GitHub", icon: <FaGithub /> },
         { name: "Docker", icon: <FaDocker /> },
         { name: "Kubernetes", icon: <SiKubernetes /> },
+        { name: "Jenkins", icon: <FaJenkins /> },
+        { name: "SonarQube", icon: <FaSonarQube />},
+        { name: "Nginx", icon: <FaNginx /> },
         { name: "Linux", icon: <FaLinux /> }
       ]
     }

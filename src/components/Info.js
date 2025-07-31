@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react';
 import { 
-  FaGithub, FaLinkedin, FaEnvelope, FaPhone, 
-  FaMapMarkerAlt, FaDownload, FaUserGraduate,
-  FaUniversity, FaCode, FaBookReader 
+  FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaDownload, FaUserGraduate,
+  FaUniversity, FaCode
 } from 'react-icons/fa';
 import { IoSettings } from "react-icons/io5";
 import Pic from '../assets/Profile.jpg';

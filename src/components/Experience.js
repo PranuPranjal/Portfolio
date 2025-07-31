@@ -1,13 +1,9 @@
 import React, { useEffect } from 'react';
-import { 
-  FaBriefcase, FaCode, FaLaptopCode, 
-  FaServer, FaDatabase, FaTools,
-  FaCalendarAlt, FaMapMarkerAlt 
+import {  FaLaptopCode, FaCalendarAlt, FaMapMarkerAlt, FaJenkins, FaSonarQube, FaNginx 
 } from 'react-icons/fa';
-import { 
-  SiJavascript, SiReact, SiNodedotjs, SiMongodb,
+import {  SiReact, SiNodedotjs,
   SiPython, SiFlask, SiNumpy, SiThreedotjs,
-  SiPlotly, SiLinux
+  SiPlotly, SiLinux, SiPostgresql, SiPassport, SiPrisma
 } from 'react-icons/si';
 
 const Experience = () => {
@@ -28,6 +24,24 @@ const Experience = () => {
   }, []);
 
   const experiences = [
+    {
+      title: "SDE Intern",
+      company: "Directorate General of Information Systems (Indian Army)",
+      period: "June 2024 - August 2024",
+      location: "New Delhi, India",
+      description: "Developed a citation and appreciation filing application for Indian Army units. Built a user-friendly frontend using React and a robust backend with Node.js and Express. Integrated SAML for centralized authentication and unique SSD-ID for digital signature. Set up a CI/CD pipeline for deployment.",
+      icon: <FaLaptopCode />,
+      technologies: [
+        { name: "Node.js", icon: <SiNodedotjs /> },
+        { name: "React", icon: <SiReact /> },
+        { name: "Postgres", icon: <SiPostgresql /> },
+        { name: "passport-saml", icon: <SiPassport /> },
+        { name: "Prisma", icon: <SiPrisma /> },
+        { name: "Jenkins", icon: <FaJenkins /> },
+        { name: "SonarQube", icon: <FaSonarQube /> },
+        { name: "Nginx", icon: <FaNginx /> }
+      ]
+    },
     {
       title: "Project Intern",
       company: "Indian Institute of Technology Dharwad",
