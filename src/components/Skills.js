@@ -3,11 +3,11 @@ import {
   FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaGitAlt,
   FaPython, FaJsSquare, FaBootstrap, FaDocker, FaJava,
   FaLinux, FaGithub, FaCode, FaTools, FaJenkins,
-  FaSonarQube, FaNginx, FaLaptopCode
+  FaLaptopCode
 } from 'react-icons/fa';
 import { 
   SiTypescript, SiMongodb, SiExpress, SiTailwindcss,
-  SiPostgresql, SiCplusplus, 
+  SiPostgresql, SiCplusplus, SiSonarqube, SiNginx,
   SiKubernetes, SiAmazonwebservices, SiAnaconda, SiNumpy,
   SiPandas, SiFlask, SiThreedotjs, SiNextdotjs
 } from 'react-icons/si';
@@ -92,8 +92,8 @@ const Skills = () => {
         { name: "Docker", icon: <FaDocker /> },
         { name: "Kubernetes", icon: <SiKubernetes /> },
         { name: "Jenkins", icon: <FaJenkins /> },
-        { name: "SonarQube", icon: <FaSonarQube />},
-        { name: "Nginx", icon: <FaNginx /> },
+        { name: "SonarQube", icon: <SiSonarqube />},
+        { name: "Nginx", icon: <SiNginx /> },
         { name: "Linux", icon: <FaLinux /> }
       ]
     }

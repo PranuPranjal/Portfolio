@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
-import {  FaLaptopCode, FaCalendarAlt, FaMapMarkerAlt, FaJenkins, FaSonarQube, FaNginx 
+import {  FaLaptopCode, FaCalendarAlt, FaMapMarkerAlt, FaJenkins 
 } from 'react-icons/fa';
-import {  SiReact, SiNodedotjs,
-  SiPython, SiFlask, SiNumpy, SiThreedotjs,
+import {  SiReact, SiNodedotjs, SiNginx,
+  SiPython, SiFlask, SiNumpy, SiThreedotjs, SiSonarqube,
   SiPlotly, SiLinux, SiPostgresql, SiPassport, SiPrisma
 } from 'react-icons/si';
 
@@ -38,8 +38,8 @@ const Experience = () => {
         { name: "passport-saml", icon: <SiPassport /> },
         { name: "Prisma", icon: <SiPrisma /> },
         { name: "Jenkins", icon: <FaJenkins /> },
-        { name: "SonarQube", icon: <FaSonarQube /> },
-        { name: "Nginx", icon: <FaNginx /> }
+        { name: "SonarQube", icon: <SiSonarqube /> },
+        { name: "Nginx", icon: <SiNginx /> }
       ]
     },
     {
