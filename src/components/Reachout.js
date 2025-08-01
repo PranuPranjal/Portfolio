@@ -3,6 +3,7 @@ import {
   FaEnvelope, FaInstagram, FaTwitter, 
   FaLinkedin, FaGithub, FaPaperPlane 
 } from 'react-icons/fa';
+import emailjs from 'emailjs-com';
 
 const Reachout = () => {
   const [formData, setFormData] = useState({
@@ -31,13 +32,21 @@ const Reachout = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-    // Add your form submission logic here
-    // For example, sending to an email service or backend
-    console.log(formData);
-    setTimeout(() => {
-      setIsSubmitting(false);
+
+    emailjs.send(
+      'service_if2rcgy',
+      'template_93dhz46',
+      formData,
+      'fKQvvItlAPbHjZYL3'
+    ).then((response) => {
+      alert('Message sent!');
       setFormData({ name: '', email: '', message: '' });
-    }, 1000);
+    }).catch((err) => {
+      console.error(err);
+      alert('Failed to send message.');
+    }).finally(() => {
+      setIsSubmitting(false);
+    });
   };
 
   const socialLinks = [
