@@ -52,7 +52,6 @@ const Skills = () => {
         { name: "TypeScript", icon: <SiTypescript /> },
         { name: "SQL", icon: <TbFileTypeSql /> },
         { name: "Python", icon: <FaPython /> },
-        { name: "SQL", icon: <TbFileTypeSql />}
       ]
     },
     {
