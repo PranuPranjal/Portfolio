@@ -38,7 +38,7 @@ const Experience = () => {
         { name: "passport-saml", icon: <SiPassport /> },
         { name: "Prisma", icon: <SiPrisma /> },
         { name: "Jenkins", icon: <FaJenkins /> },
-        { name: "SonarQube", icon: <SiSonarqube /> },
+        { name: "Sonarqube", icon: <SiSonarqube /> },
         { name: "Nginx", icon: <SiNginx /> }
       ]
     },
