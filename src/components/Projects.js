@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { 
   FaGithub, FaExternalLinkAlt, FaReact, 
-  FaNodeJs, FaDatabase, FaCode, 
+  FaNodeJs, FaDatabase, FaCode, FaAws, 
   FaDocker
 } from 'react-icons/fa';
 import { 
@@ -10,11 +10,13 @@ import {
   SiFlask,
   SiMysql,
   SiNgrok,
+  SiPostgresql,
   SiKubernetes,
   SiWeb3Dotjs
 } from 'react-icons/si';
 import ProHub from '../assets/ProjectHub.jpg';
 import FinDash from '../assets/FinancialDashboard.jpg';
+import place from '../assets/placement.jpeg';
 
 const Projects = () => {
   useEffect(() => {
@@ -69,6 +71,26 @@ const Projects = () => {
       ],
       links: {
         github: "https://github.com/PranuPranjal/Financial-Dashboard",
+        // live: "https://project2.com"
+      }
+    },
+    {
+      title: "Placemt Portal",
+      description: " Developed a robust placement management portal handling large-scale student and recruiter data with features like resume parsing, job matching, and interview scheduling.",
+      image: place,
+      technologies: [
+        { name: "React", icon: <FaReact /> },
+        { name: "Node.js", icon: <FaNodeJs /> },
+        { name: "Express", icon: <SiExpress />},
+        { name: "PostgreSQL", icon: <SiPostgresql /> },
+        { name: "Docker", icon: <FaDocker />},
+        { name: "Kubernetes", icon: <SiKubernetes />},
+        { name: "AWS Elastic Bean Stalk", icon: <FaAws />},
+        { name: "AWS S3", icon: <FaAws />}
+        
+      ],
+      links: {
+        github: "https://github.com/PranuPranjal/placement-portal",
         // live: "https://project2.com"
       }
     },
