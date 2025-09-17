@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { 
   FaGithub, FaExternalLinkAlt, FaReact, 
   FaNodeJs, FaDatabase, FaCode, FaAws, 
-  FaDocker
+  FaDocker, FaPython
 } from 'react-icons/fa';
 import { 
   SiTailwindcss, SiMongodb, SiExpress, 
@@ -10,13 +10,17 @@ import {
   SiFlask,
   SiMysql,
   SiNgrok,
+  SiOllama,
   SiPostgresql,
   SiKubernetes,
-  SiWeb3Dotjs
+  SiWeb3Dotjs,
+  SiThreedotjs,
+  SiFastapi 
 } from 'react-icons/si';
 import ProHub from '../assets/ProjectHub.jpg';
 import FinDash from '../assets/FinancialDashboard.jpg';
 import place from '../assets/placement.jpeg';
+import cad from '../assets/cad.jpg';
 
 const Projects = () => {
   useEffect(() => {
@@ -42,6 +46,7 @@ const Projects = () => {
       image: ProHub,
       technologies: [
         { name: "React", icon: <FaReact /> },
+        { name: "Tailwind CSS", icon: <SiTailwindcss /> },
         { name: "Node.js", icon: <FaNodeJs /> },
         { name: "Flask", icon: <SiFlask /> },
         { name: "MySQL", icon: <SiMysql /> },
@@ -61,6 +66,7 @@ const Projects = () => {
       image: FinDash,
       technologies: [
         { name: "React", icon: <FaReact /> },
+        { name: "Tailwind CSS", icon: <SiTailwindcss /> },
         { name: "Node.js", icon: <FaNodeJs /> },
         { name: "Express", icon: <SiExpress />},
         { name: "MongoDB", icon: <SiMongodb /> },
@@ -80,6 +86,7 @@ const Projects = () => {
       image: place,
       technologies: [
         { name: "React", icon: <FaReact /> },
+        { name: "Tailwind CSS", icon: <SiTailwindcss /> },
         { name: "Node.js", icon: <FaNodeJs /> },
         { name: "Express", icon: <SiExpress />},
         { name: "PostgreSQL", icon: <SiPostgresql /> },
@@ -92,6 +99,23 @@ const Projects = () => {
       links: {
         github: "https://github.com/PranuPranjal/placement-portal",
         // live: "https://project2.com"
+      }
+    },
+    {
+      title: "Text to CAD file Generator",
+      description: "An AI-powered web application that converts textual descriptions into 3D CAD models, leveraging natural language processing and 3D rendering technologies to streamline the design process.",
+      image: cad,
+      technologies: [
+        { name: "FastAPI", icon: <SiFastapi /> }, 
+        { name: "React", icon: <FaReact /> },
+        { name: "Three.js", icon: <SiThreedotjs /> },
+        { name: "Open Cascade", icon: <FaPython/> },
+        { name: "CodeGemma-7B", icon: <SiOllama /> },
+        { name: "Python", icon: <FaPython /> },            
+      ],
+      links: {
+        github: "https://github.com/PranuPranjal/cad-model-generator",
+        // live: "https://project1.com"
       }
     },
   ];
