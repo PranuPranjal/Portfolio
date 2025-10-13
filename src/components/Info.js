@@ -35,7 +35,7 @@ const Info = () => {
               className="profile-image"
             />
             <div className="profile-image-overlay">
-              <span>Full Stack Developer</span>
+              <span>Full Stack Developer | DevOPS Engineer</span>
             </div>
           </div>
           <div className="quick-info">
