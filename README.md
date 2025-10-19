@@ -1,4 +1,4 @@
-# Application to translate and manage FAQs 
+# Portfolio Website 
 
 ## Overview
 This is a react based portfolio website. 
